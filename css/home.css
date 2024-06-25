@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Solway:wght@300;400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/img/home.png');
+    background-size: cover;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main {
+    float: left;
+    width: 50%;
+}
+/*
+img {
+    height: 12rem;
+    width: 12rem;
+}
+*/
+#me {
+    height: 12rem;
+    width: 12rem;
+    float: left;
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 10.7rem;
+    border-radius: 1rem;
+}
+
+header #profile {
+    float: left;
+    width: 15.5rem;
+    height: 30rem;
+    padding: 10px;
+    margin-top: 10rem;
+    margin-left: 9rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+main #main-content {
+    float: left; 
+    position: absolute;
+    left: 28rem;
+    top: 10rem; 
+    width: 42rem;
+    height: 30rem;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+nav {
+    float: left;
+    width: 4rem;
+    height: 20rem;
+    padding: 10px;
+    margin-top: 15rem;
+    margin-left: 30rem;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+/*Montserrat
+Roboto
+Solway*/
+
+h1 {
+    margin-top: 5.5rem;
+    font-family: Solway;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+#dev {
+    display: inline-block;
+    background-color: #f5f2f2;
+    height: 2.5rem;
+    width: 7.7rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 2rem;
+    width: 2rem;
+}
+
+
