@@ -17,12 +17,7 @@ header, main {
     float: left;
     width: 50%;
 }
-/*
-img {
-    height: 12rem;
-    width: 12rem;
-}
-*/
+
 #me {
     height: 12rem;
     width: 12rem;
@@ -36,26 +31,27 @@ img {
 header #profile {
     float: left;
     width: 15.5rem;
-    height: 30rem;
+    height: 31rem;
     padding: 10px;
     margin-top: 10rem;
     margin-left: 9rem;
-    background-color: white;
+    background-color:#FFFFFF;
     text-align: center;
     border-radius: 1rem;
 }
 
-main #main-content {
+main {
     float: left; 
     position: absolute;
     left: 28rem;
     top: 10rem; 
     width: 42rem;
-    height: 30rem;
+    height: 31rem;
     padding: 10px;
-    background-color: white;
+    background-color:#FFFFFF;
     text-align: center;
     border-radius: 1rem;
+    overflow-y: auto;
 }
 
 nav {
@@ -63,17 +59,14 @@ nav {
     width: 4rem;
     height: 20rem;
     padding: 10px;
-    margin-top: 15rem;
+    margin-top: 16rem;
     margin-left: 30rem;
-    background-color: white;
+    background-color:#FFFFFF;;
     text-align: center;
     border-radius: 1rem;
 }
 
-/*Montserrat
-Roboto
-Solway*/
-
+/*Profile*/
 h1 {
     margin-top: 5.5rem;
     font-family: Solway;
@@ -124,11 +117,11 @@ img {
 #info {
     display: inline-block;
     background-color: #f5f2f2;
-    height: 11.2rem;
-    width: 13rem;
+    height: 11.3rem;
+    width: 13.2rem;
     border-radius: 0.5rem;
     padding: 2rem 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
     margin-bottom: 0.5rem;
     font-size: 12px;
 }
@@ -140,7 +133,7 @@ img {
 }
 
 .info-icon {
-    background: white;
+    background: #FFFFFF;;
     height: 2rem;
     width: 2rem;
     border-radius: 0.5rem;
@@ -151,12 +144,14 @@ img {
 .info-title {
     display: block;
     margin-left: 2.5rem;
+    font-family: Montserrat;
     font-size: 10px;
-    color: gray;
+    color: #808080;
     text-align: left;
 }
 
 .info-content {
+    font-family: Montserrat;
     font-size: 10px;
     margin-left: 2.5rem;
     margin-top: 0.3rem;
@@ -165,7 +160,7 @@ img {
 }
 
 hr {
-    background-color:white;
+    background-color:#FFFFFF;;
     height: 1px;
     border: none;
     margin-top: 0.5rem;
@@ -173,9 +168,18 @@ hr {
 }
 
 button {
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #1E90FF;
     margin-top: 1rem;
-    height: 2rem;
-    width: 7rem;
-    border: 1px solid;
-    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0.4rem;
 }
+
+/*Montserrat
+Roboto
+Solway*/
+/*Main*/
