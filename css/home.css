@@ -23,7 +23,7 @@ header, main {
     width: 12rem;
     float: left;
     position: absolute;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-left: 10.7rem;
     border-radius: 1rem;
 }
@@ -33,7 +33,7 @@ header #profile {
     width: 15.5rem;
     height: 31rem;
     padding: 10px;
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-left: 9rem;
     background-color:#FFFFFF;
     text-align: center;
@@ -44,12 +44,10 @@ main {
     float: left; 
     position: absolute;
     left: 28rem;
-    top: 10rem; 
+    top: 8rem; 
     width: 42rem;
     height: 31rem;
-    padding: 10px;
     background-color:#FFFFFF;
-    text-align: center;
     border-radius: 1rem;
     overflow-y: auto;
 }
@@ -60,14 +58,14 @@ main::-webkit-scrollbar {
 
 nav {
     float: left;
-    width: 4rem;
+    width: 5rem;
     height: 20rem;
     padding: 10px;
-    margin-top: 16rem;
+    margin-top: 8rem;
     margin-left: 30rem;
     background-color:#FFFFFF;;
     text-align: center;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
 }
 
 /*Profile*/
@@ -183,19 +181,18 @@ button {
     border-radius: 0.4rem;
 }
 
-/*Montserrat
-Roboto
-Solway*/
+
 /*Main*/
 main {
     font-family: Montserrat;
     text-align: left;
-    padding: 4rem 3rem;
+    padding: 0 3rem;
 }
 
 #about h2 {
     font-family: Solway;
     font-size: 2rem;
+    margin-top: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -219,57 +216,81 @@ main {
     margin-top: 2rem;
 }
 
-
 #whatIdo ul {
     overflow: hidden;
 }
 
 #whatIdo li {
     float: left;
-    width: calc(50% - 0.5rem);
-    margin-right: 0.5rem;
     margin-top: 2rem;
-    box-sizing: border-box;
-    padding: 0 10px;
+    padding: 1rem 1rem;
 }
 
 #ux {
     background: #1674d828;
     height: 15rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 #web {
-    background: #e27f982d;
+    background: #a0e27f66;
     height: 15rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 
 #ux-icon {
-    height: 4rem;
-    width: 4rem;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
     position: absolute;
 }
 
 #ux-title {
     display: block;
-    margin-top: 1.5rem;
-    margin-left: 4.5rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
     font-family: Montserrat;
-    font-size: 1.2rem;
+    font-size: 25px;
     font-weight: 500;
 }
 
 #ux-info {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    text-align: justify;
 }
 
 #web-icon {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 5rem;
+    width: 5rem;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
+    position: absolute;
 }
+
+#web-title {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#web-info {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    text-align: justify;
+}
+
+footer {
+    padding: 0 10rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+/*nav bar*/
 
