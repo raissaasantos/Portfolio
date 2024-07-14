@@ -79,30 +79,77 @@ body.home-page{
     line-height: var(--line-height-b2);
     color: var(--color-heading);
     background: var(--background-color-1);
+    display: flex;
 }
 
 
 #me {
-    max-width: 12rem;
+    max-width: 10rem;
     border-radius: 50%;
-    border: 5px solid #878e99;
+    border: 5px solid #595c5f;
 }
 
 header {
-    display: block;
-    margin-top: 6rem;
+    margin-top: 12rem;
     margin-left: 6rem;
-    margin-right: 40rem;
-    padding: 2rem 3rem;
 }
 
 h1.title {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 60px;
     color: #FFFFFF;
+    margin-top: 2rem;
+}
+
+p.header-info {
+    margin-top: 2rem;
 }
 
 #name {
     color: #ff014f;
+}
+
+#profession {
+    font-size: 48px;
+}
+
+main {
+    margin-left: 5rem;
+}
+
+#about {
+    background-color: var(--color-heading-wv);
+    border-radius: 1rem;
+    margin-top: 6rem;
+    height: 25rem;
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+
+#skills {
+    background-color: var(--color-heading-wv);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    height: 25rem;
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+
+#projects {
+    background-color: var(--color-heading-wv);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    height: 25rem;
+    width: 35rem;
+    padding: 2rem 2rem;
+}
+
+#contact {
+    background-color: var(--color-heading-wv);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    height: 40rem;
+    width: 35rem;
+    padding: 2rem 2rem;
 }
