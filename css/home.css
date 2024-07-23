@@ -87,7 +87,9 @@
 }
 
 header {
-    margin-top: 13rem;
+    position: fixed;
+    width: 35rem;
+    margin-top: 4rem;
     margin-left: 6rem;
 }
 
@@ -166,7 +168,6 @@ div.col-12 h2::after {
     margin-bottom: 1rem;
 }
 
-
 #about {
     background-color: var(--color-heading-wv);
     border-radius: 0.5rem;
@@ -218,4 +219,8 @@ div.col img {
     width: 35rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
+}
+
+footer {
+    margin-top: 1rem;
 }
