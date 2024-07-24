@@ -25,7 +25,7 @@
     --color-light: #e4e6ea;
     --color-lighter: #ced0d4;
     --color-lightest: #f0f2f5;
-    --color-border: #e6e6e6;
+    --color-border: #191b1e;
     --color-white: #fff;
     --color-white-75: hsla(0,0%,100%,.75);
     --color-success: #3eb75e;
@@ -134,8 +134,20 @@ button.btn-dark {
     width: 12rem;
 }
 
+#dark-cv:hover {
+    color: var(--color-primary);
+    background-color: var(--color-tertiary);
+    margin-top: 1.5rem;
+}
+
 #dark-hire {
     width: 7rem;
+}
+
+#dark-hire:hover {
+    color: var(--color-primary);
+    background-color: var(--color-tertiary);
+    margin-top: 1.5rem;
 }
 
 .custom-shadow {
@@ -215,10 +227,41 @@ div.col img {
     background-color: var(--color-heading-wv);
     border-radius: 0.5rem;
     margin-top: 4rem;
-    height: 44rem;
+    height: 49rem;
     width: 35rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
+}
+
+#your-name, #email, #subject, #message{
+    background-color: var(--background-color-2);
+    color: var(--color-lighter);
+    font-weight: var(--p-light);
+    box-shadow: var(--inner-shadow);
+    border: 2px solid var(--color-border);
+    padding: 1rem;
+}
+
+#your-name:focus, #email:focus, #subject:focus, #message:focus {
+    border: 2px solid var(--color-subtitle);
+    outline: none;
+    box-shadow: none;
+}
+
+#message::-webkit-scrollbar {
+    display: none;
+}
+
+#msg-send {
+    font-family: var(--font-secondary);
+    font-weight: var(--p-medium);
+    width: 10rem;
+}
+
+#msg-send:hover {
+    color: var(--color-primary);
+    background-color: var(--color-tertiary);
+    transform: scale(1.1);
 }
 
 footer {
