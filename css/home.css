@@ -223,6 +223,47 @@ div.col img {
     text-align: justify;
 }
 
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#projects li::before {   
+    content: '•'; 
+    color: var(--color-body-white);
+    font-size: 2.5rem; /* Tamanho da bolinha */
+    font-weight: 400;
+    line-height: 1; /* Ajuste a altura da linha */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#projects button {
+    border: none;
+    background-color: var(--background-color-1);
+    color: var(--color-body);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#projects button:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
+}
+
 #contact {
     background-color: var(--color-heading-wv);
     border-radius: 0.5rem;
@@ -246,6 +287,10 @@ div.col img {
     border: 2px solid var(--color-subtitle);
     outline: none;
     box-shadow: none;
+}
+
+#message {
+    resize: none;
 }
 
 #message::-webkit-scrollbar {
