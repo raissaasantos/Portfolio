@@ -60,6 +60,8 @@
     --h1: 60px;
     --h2-header: 48px;
     --h2: 30px;
+    --h1-mobile: 40px;
+    --h1-mobile-sub: 32px;
 }
 
 
@@ -71,7 +73,7 @@
 
 
 #body{
-    margin: 0; /* Remove margens padrão do body */
+    margin: 0; 
     font-family: var(--font-primary);
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b2);
@@ -90,7 +92,7 @@ header {
     position: fixed;
     width: 35rem;
     margin-top: 4rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
 }
 
 h1.title {
@@ -311,4 +313,85 @@ div.col img {
 
 footer {
     margin-top: 1rem;
+}
+
+
+@media (min-width: 344px) and (max-width: 740px) {
+
+    .d-flex {
+         flex-direction: column;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+
+    h1.title {
+        font-size: var(--h1-mobile);
+        margin-top: 2rem;
+    }
+
+    #profession {
+        font-size: var(--h1-mobile-sub);
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+
+    div.flex-shrink-1{
+        margin: 0;
+    }
+
+    #about {
+        margin-top: 1.5rem;
+        height: auto;
+    }
+
+    #skills, #contact {
+        height: auto;
+    }
+
+    #lang-list {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+    .d-flex {
+         flex-direction: column;
+    }
+
+    header {
+        position: static;
+        width: 100%;
+        margin: 0;
+        padding: 1rem 10%;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 5rem;
+    }
+
+    div.flex-shrink-1{
+        margin: 0;
+    }
+
+    #about, #skills, #projects, #contact {
+        width: 100%;
+        height: auto;
+    }
+
+    #about {
+        margin-top: 1.5rem;
+        height: auto;
+    }
 }
