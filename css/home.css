@@ -57,8 +57,8 @@
     --line-height-b1: 1.5;
     --line-height-b2: 1.6;
     --line-height-b3: 1.7;
-    --h1: 60px;
-    --h2-header: 48px;
+    --h1: 55px;
+    --h2-header: 40px;
     --h2: 30px;
     --h1-mobile: 40px;
     --h1-mobile-sub: 32px;
@@ -90,8 +90,8 @@
 
 header {
     position: fixed;
-    width: 35rem;
-    margin-top: 4rem;
+    width: 33rem;
+    margin-top: 2rem;
     margin-left: 3rem;
 }
 
@@ -100,7 +100,7 @@ h1.title {
     font-weight: bold;
     font-size: var(--h1);
     color: var(--color-white);
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #name {
@@ -114,7 +114,7 @@ h1.title {
 p.header-info {
     font-family: var(--font-primary);
     color: var(--color-body);
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .button-container{
@@ -129,7 +129,7 @@ button.btn-dark {
     height: 4rem;
     border: none;
     border-radius: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 #dark-cv {
@@ -169,8 +169,7 @@ div.col-12 h2 {
     font-family: var(--font-secondary);
     font-size: var(--h2);
     font-weight: var(--s-bold);
-    color: var(--color-white);
-    
+    color: var(--color-white); 
 }
 
 div.col-12 h2::after {
@@ -187,7 +186,7 @@ div.col-12 h2::after {
     border-radius: 0.5rem;
     margin-top: 6rem;
     height: 17rem;
-    width: 35rem;
+    width: 30rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
 }
@@ -197,7 +196,7 @@ div.col-12 h2::after {
     border-radius: 0.5rem;
     margin-top: 4rem;
     height: 30.5rem;
-    width: 35rem;
+    width: 30rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
 }
@@ -220,7 +219,7 @@ div.col img {
     border-radius: 0.5rem;
     margin-top: 4rem;
     height: 25rem;
-    width: 35rem;
+    width: 30rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
 }
@@ -271,7 +270,7 @@ div.col img {
     border-radius: 0.5rem;
     margin-top: 4rem;
     height: 49rem;
-    width: 35rem;
+    width: 30rem;
     padding: 2.5rem 2.5rem;
     text-align: justify;
 }
@@ -363,7 +362,7 @@ footer {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1180px) {
+@media (min-width: 768px) and (max-width: 950px) {
     .d-flex {
          flex-direction: column;
     }
